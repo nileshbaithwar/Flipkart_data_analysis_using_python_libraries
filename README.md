@@ -1,10 +1,6 @@
 
 # 📊 Flipkart_sales_data_analysis
-
-*A concise one‑sentence description of what this project is and its purpose.*
-
----
-
+\
 ## 🗂️ Overview
 
 * **Background**: Why this dataset matters and what motivated the analysis.
