@@ -1,4 +1,3 @@
-
 # 📊 Flipkart_sales_data_analysis
 \
 ## 🗂️ Overview
@@ -30,9 +29,9 @@
   * Removed duplicates or irrelevant entries.
   * Standardized formats (e.g., ₹ removed, numeric sorting).
   * Created new columns, e.g., `Discount Amount = MRP - MSP`.
-  * Used pivot tables to group by brand or RAM.
+  * Use matplotlib to for data visualization.
 
-Include before/after snapshots or commentary on key transformations. ([data.research.cornell.edu][1], [datamanagement.hms.harvard.edu][2], [Reddit][3])
+Include before/after snapshots or commentary on key transformations.)
 
 ---
 
@@ -46,7 +45,7 @@ Include before/after snapshots or commentary on key transformations. ([data.rese
 * **Steps**:
 
   1. Filter to budget tier (<₹15 k)
-  2. Pivot on `Brand` vs `Discount %` & `Ratings`
+  2. Plot on `Brand` vs `Discount %` & `Ratings`
   3. Identify top value phones
 
 ---
@@ -89,34 +88,3 @@ For each chart or pivot output:
 
 * `flipkart_mobiles_data.xlsx`
 * `README.md`
-
----
-
-## 📅 Changelog
-
-* **2025‑07‑18**: Initial commit with raw data, cleaned file, analysis workbook.
-* *(Add version updates as you refine charts or data.)*
-
----
-
-## 🧩 Contributing
-
-Please fork and submit pull requests, especially if you add new models or apply the analysis to other categories (e.g., tablets).
-
-## 📚 References & Resources
-
-* README conventions for tabular data: Cornell Data Services ([Reddit][3], [data.research.cornell.edu][1])
-* Scientific README template (Daniele Cook) ([Gist][4])
-* Best practices on directory structure and clarity ([Gist][4])
-
----
-
-### ✅ Why this README works
-
-* Clearly documents dataset, transformation steps, and analytical logic.
-* Helps hiring managers or collaborators quickly grasp your workflow.
-* Follows recommended structure and metadata practices to boost reproducibility. ([Gist][4], [LinkedIn][5])
-
----
-
-Feel free to customize sections, add visuals or scripts, and adjust formatting to match your project’s style. Need help generating Excel functions, charts or styling tips? Let me know!
